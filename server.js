@@ -39,8 +39,4 @@ io.on('connection', socket => {
   })
 })
 
-app.listen(3000, '0.0.0.0', function() {
-  console.log('Listening to port:  ' + 3030);
-})
-
-//server.listen(process.env.PORT||3030)
+server.listen(process.env.PORT||3040)
